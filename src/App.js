@@ -8,13 +8,13 @@ import GitHub from "./GitHub";
 function App() {
   return (
     <div>
+      <GitHub />
       <h1>My First React App!</h1>
       <JumbotronComponent>
         This is a dynamic jumbotron sentence.
       </JumbotronComponent>
       <Products />
       <UserForm />
-      <GitHub />
     </div>
   );
 }
